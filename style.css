@@ -1,0 +1,23 @@
+h1{
+    color:blue;
+    text-decoration:underline;
+    text-align: center;
+    letter-spacing:10px;
+    font-size:50px;
+    font-family:arial;
+}
+h3{
+    color:orange;
+    text-decoration: wavy underline;
+    font-family: Impact;    
+}
+h6{
+    text-decoration: red underline;
+    text-align:right;
+}
+p{
+    color:maroon;
+    font-weight: 1000;
+    line-height: 2.5;
+    font-size: 15px;           
+}
