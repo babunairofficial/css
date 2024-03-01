@@ -30,3 +30,7 @@ p+h3{
 .upvote+button{
     background-color: cornflowerblue;
 }
+/*child combinator*/
+div input{
+    background-color: darksalmon;
+}
