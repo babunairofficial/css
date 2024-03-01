@@ -1,4 +1,9 @@
-/*Method 1*/
+/*Method 1
 #myid p{
+    color: green;
+}
+*/
+/*method 2*/
+div[id="myid"] p{
     color: green;
 }
