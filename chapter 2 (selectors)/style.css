@@ -15,3 +15,11 @@ h1,h3{
     background-color: green;
     color: aliceblue;
 }
+/*descendent selector*/
+.post a{
+    background-color: yellow;
+    color:red
+}
+nav ul li a{
+    color: hotpink;
+}
