@@ -9,9 +9,11 @@ div{
     border-left-color: blue;
     border-left-style: dotted;*/
     border-top:6px dotted red;
+    border-top-right-radius: 50px;
 }
 h1{
     border-width: 2px;
     border-style: dotted;
-    border-color: green;    
+    border-color: green;
+    border-radius: 50px;    
 }
