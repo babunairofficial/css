@@ -29,4 +29,15 @@ button{
     padding:10px 20px 30px 50px;
     margin: 10px 20px 30px 50px;
 }
+h2{
+    display: inline;
+    background-color: aqua;
+}
+span{
+    background-color: violet;
+    border: 5px solid blue;
+    height: 100px;
+    width: 100px;
+    padding: 50px;
+}
 
