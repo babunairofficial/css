@@ -1,0 +1,18 @@
+h1{
+    border: 5px solid black;
+    width: 50%;
+}
+#outer{
+    height: 300px;
+    width: 300px;
+    background-color: blueviolet;
+    border: 10px solid yellow;
+    margin:50px;
+}
+#inner{
+    height: 100px;
+    width: 100px;
+    background-color: lightgreen;
+    border: 2px dotted black;
+    margin-left: 10%;
+}
