@@ -11,3 +11,13 @@
     background-color: brown;
     opacity: 0.15;
 }
+.transitions{
+    height: 200px;
+    width: 200px;
+    background-color: skyblue;
+    transition: 1s;
+}
+.transitions:hover{
+   background-color: green;
+   border-radius: 50%;   
+}
