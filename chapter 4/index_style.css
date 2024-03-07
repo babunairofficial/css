@@ -2,5 +2,12 @@
 .alpha{
     height: 200px;
     width: 200px;
-    background-color: rgba(255, 0, 0, 1);
+    background-color: rgba(255, 0, 0, 0.15);
+}
+/*Opacity*/
+.opacity{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    opacity: 0.15;
 }
