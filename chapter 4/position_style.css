@@ -24,6 +24,7 @@ div{
 #absolute{
     background-color: yellow;
     position: absolute;
+    /*No space is created for absolute*/
     top: 100px;
     left: 100px;
 }
