@@ -15,3 +15,9 @@ div{
     /*'top' and 'left' does not bring about any changes as 
     position has been set to static here*/ 
 }
+#relative{
+    background-color: yellow;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
