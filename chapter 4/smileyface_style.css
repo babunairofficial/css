@@ -4,3 +4,12 @@
     background-color: orange;
     border-radius: 50%;
 }
+.mouth{
+    width: 200px;
+    height: 75px;
+    background-color: maroon;
+    border-radius: 0 0 50px 50px;
+    position:absolute;
+    top: 250px;
+    left: 100px;
+}
