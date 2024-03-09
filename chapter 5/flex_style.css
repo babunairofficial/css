@@ -4,6 +4,15 @@
     background-color: azure;
     margin: 10px auto;
     border: 2px solid black;
+    /*making container as flex*/
+    display: flex;
+    /*display flex limits the items 
+    to remain in the container 
+    ie. the elements cannot overflow*/
+    flex-direction: column;
+    /*flex direction can be row/column, 
+    this helps to arrange within the boundary 
+    either row-wise or column-wise*/
 }
 
 h1{
