@@ -9,10 +9,11 @@
     /*display flex limits the items 
     to remain in the container 
     ie. the elements cannot overflow*/
-    flex-direction: column;
+    flex-direction: row;
     /*flex direction can be row/column, 
     this helps to arrange within the boundary 
     either row-wise or column-wise*/
+    justify-content: flex-end;
 }
 
 h1{
@@ -21,7 +22,7 @@ h1{
 
 #container div{
     height: 100px;
-    width: 300px;
+    width: 100px;
     color: white;
     text-align: center;
     font-size: 1.5em;
