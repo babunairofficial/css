@@ -49,4 +49,7 @@
   width: 200px;
   height: 200px;
   background: pink;
+  background-image: url(jorge-garcia.jpg);
+  background-size: cover;
+  opacity: 0.5;
 }
