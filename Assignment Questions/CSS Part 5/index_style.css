@@ -4,6 +4,14 @@
     border: 5px solid skyblue;
     border-radius: 15px;
     padding: 10px;
+
+    /*flexbox*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+
 }
 
 #container div{
