@@ -26,12 +26,14 @@
 
  /*align self*/
  #org{
-    align-self: center;
+    /* align-self: center; */
+    flex-grow: 1;
  }
 
  /*flex-basis*/
  #blue{
-    flex-basis: 50px;
+    /* flex-basis: 50px; */
+    flex-grow: 3;
  }
 
 h1{
@@ -41,7 +43,7 @@ h1{
 #container div{
     height: 100px;
     /*changing the size to test flex-wrap property*/
-    width: 300px;
+    width: 50px;
     color: white;
     text-align: center;
     font-size: 1.5em;
