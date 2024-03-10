@@ -13,7 +13,10 @@
     /*flex direction can be row/column, 
     this helps to arrange within the boundary 
     either row-wise or column-wise*/
-    justify-content: flex-end;
+    /*justify-content: flex-end;*/
+    justify-content: space-between; /*this adds space 
+    in between elements to fill up the box row-wise or 
+    column-wise depending on the main axis*/
 }
 
 h1{
