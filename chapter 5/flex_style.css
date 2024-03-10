@@ -27,15 +27,18 @@
  /*align self*/
  #org{
     /* align-self: center; */
-    flex-grow: 1;
+    /* flex-grow: 1; */
+    flex-shrink: 1;
  }
 
  /*flex-basis*/
  #blue{
     /* flex-basis: 50px; */
-    flex-grow: 2; /*carries 3 times width than orange div*/
-    max-width: 400px; /*sets a maximum width for flex item*/
-
+    /* flex-grow: 2; */
+    /*carries 3 times width than orange div */
+    /* max-width: 400px;  */
+    /*sets a maximum width for flex item*/
+    flex-shrink: 2;
  }
 
 h1{
@@ -45,7 +48,7 @@ h1{
 #container div{
     height: 100px;
     /*changing the size to test flex-wrap property*/
-    width: 50px;
+    width: 300px;
     color: white;
     text-align: center;
     font-size: 1.5em;
