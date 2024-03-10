@@ -33,7 +33,9 @@
  /*flex-basis*/
  #blue{
     /* flex-basis: 50px; */
-    flex-grow: 3;
+    flex-grow: 2; /*carries 3 times width than orange div*/
+    max-width: 400px; /*sets a maximum width for flex item*/
+
  }
 
 h1{
