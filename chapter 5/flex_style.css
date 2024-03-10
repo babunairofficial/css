@@ -29,6 +29,11 @@
     align-self: center;
  }
 
+ /*flex-basis*/
+ #blue{
+    flex-basis: 50px;
+ }
+
 h1{
     text-align: center;
 }
