@@ -17,11 +17,17 @@
     justify-content: flex-start; 
     
     /*applying flex-wrap property*/
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 
     /*Align content*/
-    align-content: space-evenly;
+    align-content: flex-start;
+   
 }
+
+ /*align self*/
+ #org{
+    align-self: center;
+ }
 
 h1{
     text-align: center;
