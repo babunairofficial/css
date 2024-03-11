@@ -14,7 +14,7 @@
     animation-direction: normal; */
 
     /*animations shorthand*/
-    animation: fontAnimation 2s linear 0s infinite normal;
+    animation: colAnimate 2s linear 0s infinite normal;
 }
 
 @keyframes fontAnimation {
@@ -33,5 +33,12 @@
     to{
         background-color: blue;
     }
+    
+}
+
+@keyframes colAnimate {
+    0%{background-color: black;}
+    50%{background-color: yellow;}
+    100%{background-color: red;}
     
 }
