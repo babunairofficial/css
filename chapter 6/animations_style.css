@@ -4,11 +4,13 @@
     background-color: pink;
     
     /*animations*/
-    animation-name: fontAnimation;
+    /* animation-name: fontAnimation; */
+    animation-name: colorAnimate;
     animation-duration: 2s;
     animation-timing-function: ease-in;
     animation-delay: 0;
-    animation-iteration-count: 3;
+    /* animation-iteration-count: 3; */
+    animation-iteration-count: infinite;
     animation-direction: normal;
 }
 
@@ -19,4 +21,14 @@
     to{
         font-size: 40px;
     }
+}
+
+@keyframes colorAnimate {
+    from{
+        background-color: green;
+    }
+    to{
+        background-color: blue;
+    }
+    
 }
