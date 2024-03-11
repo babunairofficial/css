@@ -21,3 +21,9 @@ h1{
         background-color: greenyellow;
     }
 }
+
+@media(max-width: 200px){
+    h1{
+        background-color: pink;
+    }
+}
