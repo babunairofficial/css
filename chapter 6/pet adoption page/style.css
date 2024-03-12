@@ -33,5 +33,11 @@ h4{
     color: #3c787e;
 }
 
+@media(max-width: 400px){
+    #pets{
+        flex-wrap: wrap;
+    }
+}
+
 
 
