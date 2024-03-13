@@ -1,9 +1,11 @@
 .one{
-    
+    height: 100vh;
     background-color: pink;
+    font-size: 1.5rem;
     display: grid;
     grid-template-rows: repeat(12, 1fr);
     grid-template-columns: repeat(12, 1fr);
+    grid-gap: 10px;
 }
 
 .header{
