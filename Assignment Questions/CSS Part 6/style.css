@@ -11,6 +11,9 @@
 }
 
 .sidebar{
-    grid-row: 1/span 10;
+    grid-row: 2/span 10;
+    /*need to set the start row to 2 so that sidebar class is
+    arranged below the header class*/
     grid-column: 1/span 3;
+    
 }
