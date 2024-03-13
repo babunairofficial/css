@@ -31,3 +31,7 @@
     grid-row: 3/span 9;
     grid-column: 4/span 6;
 }
+
+.footer{
+    grid-column: 1/span 12;
+}
