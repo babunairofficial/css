@@ -73,3 +73,16 @@
 .sidebar_menu .menu i{
     padding-right: 8px;
 }
+
+.sidebar_menu .other_medias{
+    position: absolute;
+    left: 25%;
+    bottom: 100px;
+}
+
+.sidebar_menu .other_medias i{
+    color: white;
+    opacity: 0.5;
+    padding: 0 5px;
+}
+
