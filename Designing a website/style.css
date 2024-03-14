@@ -56,6 +56,10 @@
     position: absolute;
     width: 100%;
     top: 80px;
-    
+        
 }
 
+.sidebar_menu .menu li{
+    margin-top: 6px;
+    padding: 14px 20px;
+}
