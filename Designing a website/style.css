@@ -103,3 +103,8 @@
 .button_two i:hover{
     font-size: 40px;
 }
+
+.sidebar_menu .other_medias i:hover{
+    opacity: 1;
+    transform: scale(1.2);
+}
