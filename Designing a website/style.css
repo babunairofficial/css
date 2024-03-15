@@ -10,12 +10,13 @@
     background-size: cover;
 }
 
-.button_one{
+.button_one i{
     color: white;
     font-size: 30px;
     font-weight: 700;
     left: 16px;
     line-height: 60px;
+    cursor: pointer;
 }
 
 .sidebar_menu{
@@ -43,13 +44,14 @@
     font-weight: 500;
 }
 
-.button_two{
+.button_two i{
     color: grey;
     font-size: 25px;
     line-height: 60px;
     position: absolute;
     left: 275px;
-    opacity: 0;
+    /* opacity: 0; */
+    cursor: pointer;
 }
 
 .sidebar_menu .menu{
@@ -82,10 +84,22 @@
 
 .sidebar_menu .other_medias i{
     color: white;
-    opacity: 0.5;
+    opacity: 0.8;
     padding: 0 5px;
 }
 
 #check{
     display: none;
+}
+
+.sidebar_menu .menu li:hover{
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.8);
+}
+
+.button_one i:hover{
+    font-size: 40px;
+}
+
+.button_two i:hover{
+    font-size: 40px;
 }
