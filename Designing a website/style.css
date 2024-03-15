@@ -112,3 +112,6 @@
 #check:checked ~ .sidebar_menu{
     left: 0;
 }
+#check:checked ~.button_one{
+    opacity: 0; /*to remove the button one when checkeed*/
+}
